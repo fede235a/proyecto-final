@@ -325,9 +325,18 @@ boton.addEventListener('click', cambiarParrafo)
 boton.addEventListener("click", cambiarExp);
 boton.addEventListener("click", cambiarLogroUno);
 boton.addEventListener("click", cambiarDesa);
-boton.addEventListener("click", cambiarLogroUno);
+boton.addEventListener("click", cambiarLogroDos);
 boton.addEventListener("click", cambiarCursos);
 boton.addEventListener("click", cambiarIdiomas);
 boton.addEventListener("click", cambiarHab);
+
+document.addEventListener("DOMContentLoaded", cambiarParrafo);
+document.addEventListener("DOMContentLoaded", cambiarExp);
+document.addEventListener("DOMContentLoaded", cambiarLogroUno);
+document.addEventListener("DOMContentLoaded", cambiarDesa);
+document.addEventListener("DOMContentLoaded", cambiarLogroDos);
+document.addEventListener("DOMContentLoaded", cambiarCursos);
+document.addEventListener("DOMContentLoaded", cambiarIdiomas);
+document.addEventListener("DOMContentLoaded", cambiarHab);
 
 document.addEventListener("DOMContentLoaded", fetchDatos);
