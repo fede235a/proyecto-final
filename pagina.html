@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Proyecto Final CV</title>
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="loader"></div>
+        <span class="span-loader">Cargando...</span>
+    </div>
+
+    <header id="header"></header>  
+
+    <div class="caja-primero" id="cajap">
+        <div class="titulo-primero">
+            <div class="bloque-boton">
+                <button class="boton uno">
+                    <i class="fa-solid fa-chevron-down flecha flecha-abajo" id="bajar"></i>
+                </button>
+                <button class="boton dos">
+                    <i class="fa-solid fa-chevron-up" id="subir"></i>
+                </button>
+            </div>
+            <div class="bloque-titulo">
+                <h2>Curriculum vitae dinámico</h2>
+            </div>             
+        </div>              
+    </div>
+
+    <div class="caja-cambiar">
+        <button type="submit" class="boton-cambiar" id="tec">Cambiar CV</button>
+    </div>
+
+    <main class="contenedor">
+
+        <section class="hoja hoja1">
+            <div class="principal">
+                <div class="columna-uno">
+                    <div class="foto-caja">
+                        <img src="" alt="Foto de perfil" class="foto-perfil" id="foto">
+                    </div>
+                    <div class="nombre-caja">
+                        <h1 class="titulo-columna titulo-uno" id="nombre"></h1>
+                    </div>
+                    <div class="linea"></div>
+                    <div class="caja-datos">
+                        <h2 class="titulo-columna titulo-dos">Datos Personales</h2>
+                    </div>
+                    <div class="caja-datos">
+                        <h3 class="sub">Fecha/Lugar de nacimiento</h3>
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-regular fa-calendar-days"></i></span>
+                            <span class="info" id="fecha-nac"></span>
+                        </div>                     
+                    </div>
+                    <div class="caja-datos">
+                        <h3 class="sub">Nacionalidad</h3>
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-solid fa-location-pin"></i></span>
+                            <span class="info" id="nat"></span>
+                        </div>   
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-solid fa-location-pin"></i></span>
+                            <span class="info" id="estado"></span>
+                        </div>
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-solid fa-location-pin"></i></span>
+                            <span class="info" id="ciudad"></span>
+                        </div> 
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-solid fa-n"></i></span>
+                            <span class="info" id="postal"></span>
+                        </div>                   
+                    </div>
+                    <div class="caja-datos">
+                        <h3 class="sub">Dirección</h3>
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-solid fa-map-location-dot"></i></span>
+                            <span class="info" id="calle"></span>
+                        </div>   
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-solid fa-n"></i></span>
+                            <span class="info" id="numero"></span>
+                        </div>                  
+                    </div>                   
+        
+                    
+                    <div class="caja-datos">
+                        <h2 class="titulo-columna titulo-dos">Contactos</h2>
+                    </div>
+
+                    <div class="caja-datos">
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-solid fa-phone"></i></span> 
+                            <span class="info" id="cel"></span>
+                        </div>  
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-solid fa-envelope"></i></span> 
+                            <span class="info" id="mail"></span>
+                        </div> 
+                        <div class="contenido">
+                            <img class="img-in" src="img/white-linkedin-icon.webp" alt="Linkedin"> 
+                           <span class="info" id="liked"></span> 
+                        </div>                    
+                    </div>
+                </div>
+
+                <div class="columna-dos">
+
+                    <div>
+                        <div class="titulo-sec caja-sec sec-arriba">
+                            <i class="fa-solid fa-user-tie iconD"></i>
+                            <h2 class="titu">Perfil profesional</h2>
+                        </div>
+                    </div>
+
+                    <div class="sec">
+                        <p class="parrafo-perfil" id="parrafo"></p>
+                    </div>
+
+                    <div>
+                        <div class="titulo-sec caja-sec">
+                            <i class="fa-solid fa-book-open iconD"></i>
+                            <h2 class="titu">Experiencia Laboral</h2>
+                        </div>
+                    </div>
+
+                    <div class="sec">
+                        <div class="marca">
+                            <span>Junio 2017 - Marzo 2020</span>
+                        </div>
+
+                        <div class="h2">
+                            <h2>Desarrollador web eCommerce Hays Responce, Zaragoza</h2>
+                        </div>
+
+                        <div class="caja-ul">
+                            <ul class="desa-web">
+                                <li id="expLaboral1"></li>
+                                <li id="expLaboral2"></li>
+                                <li id="expLaboral3"></li>
+                                <li id="expLaboral4"></li>
+                            </ul>
+                        </div>
+
+                        <div class="marca">
+                            <span>Logros clave</span>
+                        </div>
+
+                        <div class="caja-ul">
+                            <ul class="desa-web">
+                                <li id="logro"></li>
+                                <li id="logro1"></li>
+                            </ul>
+                        </div>
+
+                        <div class="marca">
+                            <span>Enero 2015 - Mayo 2016</span>
+                        </div>
+
+                        <div class="h2">
+                            <h2>Desarrollador SharePoint X25 informática, Madrid</h2>
+                        </div>
+
+                        <div class="caja-ul">
+                            <ul class="desa-web">
+                                <li id="desa1"></li>
+                                <li id="desa2"></li>
+                                <li id="desa3"></li>
+                                <li id="desa4"></li>
+                            </ul>
+                        </div>
+
+                        <div class="marca">
+                            <span>Logro clave</span>
+                        </div>
+
+                        <div class="caja-ul">
+                            <ul class="lista-ul">
+                                <li id="logro2"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="caja-sec">
+                        <div class="titulo-sec">
+                            <i class="fa-solid fa-book iconD"></i>
+                            <h2 class="titu">Formación</h2>
+                        </div>
+                    </div>
+                    <div class="caja-ul sec" id="lista5">
+                        <ul class="ul-formacion">
+                            <li>2015 - Grado superior en Desarrollo de Aplicaciones Web
+                                <span>IES Miguel Catalán, Zaragoza</span>
+                            </li>
+                            <li>2013 - Bachillerato de Ciencias
+                                <span>IES Luis Buñuel</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="titulo-sec caja-sec">
+                            <i class="fa-solid fa-certificate iconD"></i>
+                            <h2 class="titu">Cursos y Certificados</h2>
+                        </div>
+                    </div>
+
+                    <div class="caja-ul sec">
+                        <ul class="ul-cur">
+                            <li id="curso"></li>
+                            <li id="curso1"></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="titulo-sec caja-sec">
+                            <i class="fa-solid fa-earth-europe iconD"></i>
+                            <h2 class="titu">Idiomas</h2>
+                        </div>
+                    </div>
+
+                    <div class="caja-ul sec">
+                        <ul class="ul-idi">
+                            <li id="idioma"></li>
+                            <li id="idioma1">k</li>
+                        </ul>
+                    </div>
+
+                    <div class="titulo-caja caja-sec">
+                        <div class="titulo-sec">
+                            <i class="fa-solid fa-laptop iconD"></i>
+                            <h2 class="titu">Habilidades</h2>
+                        </div>
+                    </div>
+
+                    <div class="caja-ul sec sec-abajo">
+                        <ul class="ul-hab">
+                            <li id="hab1"></li>
+                            <li id="hab2"></li>
+                            <li id="hab3"></li>
+                            <li id="hab4"></li>
+                            <li id="hab5"></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/loader.js"></script>
+    <script src="js/botonPagina.js"></script>
+    <script src="js/navPagina.js"></script>
+    <script src="js/menuBarra.js"></script>
+    <script src="js/api.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+</body>
+</html>

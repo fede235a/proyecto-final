@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Proyecto Final CV</title>
+</head>
+<body>
+
+    <header id="header"></header>  
+
+    <div class="caja-primero" id="cajap">
+        <div class="titulo-primero">
+            <div class="bloque-boton">
+                <button class="boton uno">
+                    <i class="fa-solid fa-chevron-down flecha flecha-abajo" id="bajar"></i>
+                </button>
+                <button class="boton dos">
+                    <i class="fa-solid fa-chevron-up" id="subir"></i>
+                </button>
+            </div>
+            <div class="bloque-titulo">
+                <h2>Curriculum vitae estático</h2>
+            </div>             
+        </div>              
+    </div>
+
+    <main class="contenedor">
+
+        <section class="hoja">
+            <div class="principal">
+                <div class="columna-uno">
+                    <div class="foto-caja">
+                        <img src="img/mardd.jpg" alt="Foto de perfil" class="foto-perfil">
+                    </div>
+                    <div class="nombre-caja">
+                        <h1 class="titulo-columna titulo-uno">Marcos Esteves</h1>
+                    </div>
+                    <div class="linea"></div>
+                    <div class="caja-datos">
+                        <h2 class="titulo-columna titulo-dos">Datos Personales</h2>
+                    </div>
+                    <div class="caja-datos">
+                        <h3 class="sub">Fecha/Lugar de nacimiento</h3>
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-regular fa-calendar-days"></i></span>
+                            <span class="info" id="fecha-nac">1985-06-18</span>
+                        </div>                     
+                    </div>
+                    <div class="caja-datos">
+                        <h3 class="sub">Nacionalidad</h3>
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-solid fa-location-pin"></i></span>
+                            <span class="info" id="nat">Argentina</span>
+                        </div>   
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-solid fa-location-pin"></i></span>
+                            <span class="info" id="estado">Buenos Aires</span>
+                        </div>
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-solid fa-location-pin"></i></span>
+                            <span class="info" id="ciudad">Lanus</span>
+                        </div> 
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-solid fa-n"></i></span>
+                            <span class="info" id="postal">1900</span>
+                        </div>                   
+                    </div>
+                    <div class="caja-datos">
+                        <h3 class="sub">Dirección</h3>
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-solid fa-map-location-dot"></i></span>
+                            <span class="info" id="calle">Salta</span>
+                        </div>   
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-solid fa-n"></i></span>
+                            <span class="info" id="numero">1215</span>
+                        </div>                  
+                    </div>                   
+        
+                    
+                    <div class="caja-datos">
+                        <h2 class="titulo-columna titulo-dos">Contactos</h2>
+                    </div>
+
+                    <div class="caja-datos">
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-solid fa-phone"></i></span> 
+                            <span class="info" id="cel">079 214 61 19</span>
+                        </div>  
+                        <div class="contenido">
+                            <span class="fecha"><i class="fa-solid fa-envelope"></i></span> 
+                            <span class="info" id="mail">marcos@example.com</span>
+                        </div> 
+                        <div class="contenido">
+                            <img class="img-in" src="img/white-linkedin-icon.webp" alt="Linkedin"> 
+                           <span class="info" id="liked">marcos2546</span> 
+                        </div>                    
+                    </div>
+                </div>
+
+                <div class="columna-dos">
+
+                    <div>
+                        <div class="titulo-sec caja-sec sec-arriba">
+                            <i class="fa-solid fa-user-tie iconD"></i>
+                            <h2 class="titu">Perfil profesional</h2>
+                        </div>
+                    </div>
+
+                    <div class="sec" id="parrafo"></div>
+
+                    <div>
+                        <div class="titulo-sec caja-sec">
+                            <i class="fa-solid fa-book-open iconD"></i>
+                            <h2 class="titu">Experiencia Laboral</h2>
+                        </div>
+                    </div>
+
+                    <div class="sec">
+                        <div class="marca">
+                            <span>Junio 2017 - Marzo 2020</span>
+                        </div>
+
+                        <div class="h2">
+                            <h2>Desarrollador web eCommerce Hays Responce, Zaragoza</h2>
+                        </div>
+
+                        <div class="caja-ul" id="lista1"></div>
+
+                        <div class="marca">
+                            <span>Logros clave</span>
+                        </div>
+
+                        <div class="caja-ul" id="lista2"></div>
+
+                        <div class="marca">
+                            <span>Enero 2015 - Mayo 2016</span>
+                        </div>
+
+                        <div class="h2">
+                            <h2>Desarrollador SharePoint X25 informática, Madrid</h2>
+                        </div>
+
+                        <div class="caja-ul" id="lista3"></div>
+
+                        <div class="marca">
+                            <span>Logro clave</span>
+                        </div>
+
+                        <div class="caja-ul" id="lista4"></div>
+                    </div>
+                    <div>
+                        <div class="titulo-sec caja-sec">
+                            <i class="fa-solid fa-book iconD"></i>
+                            <h2 class="titu">Formación</h2>
+                        </div>
+                    </div>
+                    <div class="caja-ul sec" id="lista5">
+                        <ul class="ul-formacion">
+                            <li>2015 - Grado superior en Desarrollo de Aplicaciones Web
+                                <span>IES Miguel Catalán, Zaragoza</span>
+                            </li>
+                            <li>2013 - Bachillerato de Ciencias
+                                <span>IES Luis Buñuel</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="titulo-sec caja-sec">
+                            <i class="fa-solid fa-certificate iconD"></i>
+                            <h2 class="titu">Cursos y Certificados</h2>
+                        </div>
+                    </div>
+
+                    <div class="caja-ul sec" id="lista6"></div>
+
+                    <div>
+                        <div class="titulo-sec caja-sec">
+                            <i class="fa-solid fa-earth-europe iconD"></i>
+                            <h2 class="titu">Idiomas</h2>
+                        </div>
+                    </div>
+
+                    <div class="caja-ul sec" id="lista7"></div>
+
+                    <div class="titulo-caja">
+                        <div class="titulo-sec caja-sec">
+                            <i class="fa-solid fa-laptop iconD"></i>
+                            <h2 class="titu">Habilidades</h2>
+                        </div>
+                    </div>
+
+                    <div class="caja-ul sec sec-abajo" id="lista8"></div>
+                    
+                </div>
+            </div>
+        </section>        
+
+        <!-- SECCION DOS -->
+
+        <div class="caja-segundo" id="cajas">
+            <div class="titulo-segundo">
+                <div class="bloque-boton">
+                    <button class="boton tres bl">
+                        <i class="fa-solid fa-chevron-down flecha flecha-abajo" id="bajar"></i>
+                    </button>
+                    <button class="boton cuatro bl">
+                        <i class="fa-solid fa-chevron-up" id="subir"></i>
+                    </button>
+                </div>
+                <div class="bloque-titulo titu-dos">
+                    <h2>Explicación y consideraciones</h2>
+                </div>             
+            </div>              
+        </div> 
+        
+        <section class="hoja hoja1">
+            <div class="principal-dos">
+                <h2 class="par-titulo">Menu</h2>
+                <p class="par">El menú fue creado en CrearElementoNav.js . Se encuentra 
+                    posicionado de manera fija de manera que cuando uno haga scroll baje 
+                    y se pueda acceder todo el tiempo.
+                    Es un menú responsive, con punto de ruptura en los 768px.
+                    Con CSS cree un icon que al hacer click despliega el menú y se 
+                    transforma en una “X” (menuBarra.js). Y al presionar la “X” lo cierra (boton.js).                    
+                </p>
+                <h2 class="par-titulo">CV Estático</h2>
+                <p class="par">Representación del CV con imagen, títulos, datos y listas de 
+                    manera fija. En  crearElementosColumnaDos.js accedí  a la página a 
+                    través del DOM y agregue listas y párrafos.
+                    Cuenta con dos botones con icons que al hacer click cierra y despliega el 
+                    contenido de abajo. Los icons cambian de flecha-abajo y flecha-arriba respectivamente.
+                </p>
+                <h2 class="par-titulo">CV Dinámico</h2>
+                <p class="par">Se encuentra en (pagina.html). Contiene el mismo estilo que CV estático (index.html) 
+                    y su menu esta en (navPagina.js).
+                    Tiene un pre-loader de 400 milisegundos que evita que veamos el cargado de los datos al inicio. 
+                    La imagen, datos personales y de contactos son agregados 
+                    dinámicamente a través de los datos sustraídos en <a class="par-a" href="https://randomuser.me/" target="_blank">https://randomuser.me/</a> y 
+                    Realizando la llamada a la API con Fetch (api.js).
+                    Haciendo click en el boton cambiar CV se realizan las modificaciones. El botón queda deshabilitado cuando se oculta el CV para queda
+                    podamos solo cambiar los datos cuando estos estén visibles.
+                    Y las listas son arrays que con una función y el método Math.random 
+                    son agregadas dinámicamente sin que se repitan las opciones en cada 
+                    caso respectivamente (api.js).      
+                </p>
+                <h2 class="par-titulo">En esta pagina web se utilizó:</h2>
+                <ul class="par par-ul">
+                    <li>
+                        <a class="par-a" href="https://fonts.google.com" target="_blank">https://fonts.google.com</a>
+                    </li>
+                    <li>
+                        <a class="par-a" href="https://fontawesome.com" target="_blank">https://fontawesome.com</a>
+                    </li>
+                    <li>
+                        <a class="par-a" href="https://randomuser.me" target="_blank">https://randomuser.me</a>
+                    </li>
+                </ul>
+            </div>
+        </section>      
+    </main>
+
+    <script src="js/boton.js"></script>
+    <script src="js/crearElementosNav.js"></script>
+    <script src="js/menuBarra.js"></script>
+    <script src="js/crearElementoColumnaDos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+</body>
+</html>
